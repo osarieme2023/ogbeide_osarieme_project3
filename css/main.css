@@ -1,0 +1,48 @@
+
+.P2{
+    height: 150px;
+}
+
+#hero-image{
+    height: 250px;
+}
+
+#image{
+    display: none;
+}
+
+#footer{
+    height: 100px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .P2{
+        height: 150px;
+    }
+
+    #hero-image{
+        height: 300px;
+    }
+    #footer{
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #image{
+        display: inline-block;
+    }
+
+    .P2{
+        height: 200px;
+    }
+
+    #hero-image{
+       height: 370px;
+    }
+
+    #footer{
+        height: 150px;
+    }
+}
